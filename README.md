@@ -4,3 +4,8 @@ To become effective, the portfolio will place great emphasis on my strongest wor
 
 To view the livewire of what I had in mind follow this link: https://docs.google.com/presentation/d/1s-IYaFxByBIC0bqL1zc9zk9IaCQeQLn-EC7JYlMa0Oc/edit?usp=sharing
 
+link to the repo is found here:
+https://github.com/Dylson14/MVP-MostValuedPortfolio-HW2
+
+link to the deployed webpage is here:
+ https://dylson14.github.io/MVP-MostValuedPortfolio-HW2/
