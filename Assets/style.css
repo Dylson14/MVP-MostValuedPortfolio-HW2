@@ -1,0 +1,86 @@
+:root {
+  --header-color: navy;
+  --main-color: #f5f0e1;
+  --main-text: #1e3d59;
+}
+
+.HDR {
+  border: 5px solid black;
+  padding: 1%;
+  background: var(--header-color);
+  color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 10%;
+  grid-auto-rows: minmax(
+    100px,
+    auto
+  ); /* keeps the content aligned with  border */
+}
+
+#hdrLeft {
+  background: var(--header-color);
+  color: white;
+  border: 5px solid silver;
+  padding: 5%;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#hdrRight {
+  background: var(--header-color);
+  color: white;
+  border: 5px solid silver;
+  padding: 5%;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.Main {
+  background: var(--main-color);
+  border: 5px solid goldenrod;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  color: #1e3d59;
+  font-weight: bold;
+  grid-auto-rows: minmax(100px,auto);
+}
+
+#mainLeft {
+  background: var(--main-color);
+  color: var(--main-text);
+  border: 5px solid navy;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.mainRight {
+  background: var(--main-color);
+  color: var(--main-text);
+  border: 5px solid navy;
+  font-weight: bold;
+  padding: 1%;
+  display: grid;
+  grid-auto-rows: minmax(100px,auto);
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+#nestedUp{
+    color: blue;
+    display: flex;
+    border: 5px solid gold;
+    width: 100%;
+    display: wrap;
+}
+
+#nestedRight{
+color: black;
+border: 5px solid navy;
+}
+
+#nestedLeft{
+color: olive;
+border:5px solid olive
+}
